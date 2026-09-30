@@ -152,15 +152,6 @@
         "major": "Environmental Science",
         "gpa": 3.2
     },
-    "3720199001122": {
-        "name": "Fahad Mustafa",
-        "age": 20,
-        "gender": "Male",
-        "city": "Rawalpindi",
-        "roll no": "Stf-435",
-        "major": "Mass Communication",
-        "gpa": 2.9
-    },
     "3450122334455": {
         "name": "Nida Yasir",
         "age": 18,
@@ -889,5 +880,23 @@
         "roll no": "Stf-427",
         "major": "Neuroscience",
         "gpa": 3.7
+    },
+    "3208134634612": {
+        "name": "Hassan Ali",
+        "age": 19,
+        "gender": "Male",
+        "city": "Lahore",
+        "roll no": "Stf-345",
+        "major": "Computer Science",
+        "gpa": 3.4
+    },
+    "3410234534586": {
+        "name": "Hassan Ali",
+        "age": 15,
+        "gender": "Male",
+        "city": "Lahore",
+        "roll no": "Stf-456",
+        "major": "Computer",
+        "gpa": 3.1
     }
 }

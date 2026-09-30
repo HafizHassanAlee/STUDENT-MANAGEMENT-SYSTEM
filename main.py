@@ -1,7 +1,7 @@
 import json
 
 def load_data():
-    with open("students123.json", "r") as file:
+    with open("students.json", "r") as file:
         x = json.load(file)
     return x
 readed_data = load_data()
@@ -247,7 +247,7 @@ def add_student():
 
     while True:
         try:
-            with open("students123.json", "w") as file:
+            with open("students.json", "w") as file:
                 json.dump(readed_data, file, indent=4)
                 print("UPLOADED SUCCESSFULLY")
                 break
@@ -379,7 +379,7 @@ def delete_student():
     if oper == "1":
         try: 
             del readed_data[id_delete]
-            with open("students123.json", "w") as file:
+            with open("students.json", "w") as file:
                 json.dump(readed_data, file, indent=4)
         except:
             print("FAILED TO DELETE..\nTRY AGAIN")
@@ -873,7 +873,7 @@ def name_result_stat_no_by_major():
 
 def save_student_record():
     try:
-        with open("students123.json", "w") as file:
+        with open("students.json", "w") as file:
             json.dump(readed_data, file, indent=4)
     except:
         print("FAILED TO SAVE..")
