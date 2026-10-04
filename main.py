@@ -956,51 +956,51 @@ def run_system():
         choice = input("ENTER YOUR CHOICE: ")
 
         if choice == "1":
-            print("\nADD NEW STUDENT SELECTED")
+            print("\n[ADD NEW STUDENT SELECTED]")
             add_student()
 
         elif choice == "2":
-            print("\nVIEW ALL STUDENT RECORDS SELECTED")
+            print("\n[VIEW ALL STUDENT RECORDS SELECTED]")
             view_all_students()
 
         elif choice == "3":
-            print("\nSEARCH STUDENT RECORD SELECTED")
+            print("\n[SEARCH STUDENT RECORD SELECTED]")
             search_student_record()
 
         elif choice == "4":
-            print("\nUPDATE STUDENT RECORD SELECTED")
+            print("\n[UPDATE STUDENT RECORD SELECTED]")
             update_student_record()
 
         elif choice == "5":
-            print("\nDELETE STUDENT RECORD SELECTED")
+            print("\n[DELETE STUDENT RECORD SELECTED]")
             delete_student()
 
         elif choice == "6":
-            print("\nVERIFY STUDENT EXISTENCE SELECTED")
+            print("\n[VERIFY STUDENT EXISTENCE SELECTED]")
             verify_student()
 
         elif choice == "7":
-            print("\nSEARCH STUDENT BY ROLL NUMBER SELECTED")
+            print("\n[SEARCH STUDENT BY ROLL NUMBER SELECTED]")
             search_by_roll()
 
         elif choice == "8":
-            print("\nSEARCH STUDENTS BY CITY SELECTED")
+            print("\n[SEARCH STUDENTS BY CITY SELECTED]")
             search_by_city()
 
         elif choice == "9":
-            print("\nSEARCH STUDENTS BY MAJOR SELECTED")
+            print("\n[SEARCH STUDENTS BY MAJOR SELECTED]")
             search_by_major()
 
         elif choice == "10":
-            print("\nSEARCH STUDENTS BY GPA SELECTED")
+            print("\n[SEARCH STUDENTS BY GPA SELECTED]")
             search_by_gpa()
 
         elif choice == "11":
-            print("\nSEARCH STUDENTS BY GPA RANGE SELECTED")
+            print("\n[SEARCH STUDENTS BY GPA RANGE SELECTED]")
             search_by_gpa_range()
 
         elif choice == "12":
-            print("\nSEARCH STUDENTS BY AGE RANGE SELECTED")
+            print("\n[SEARCH STUDENTS BY AGE RANGE SELECTED]")
             search_by_age_range()
 
         elif choice == "13":
