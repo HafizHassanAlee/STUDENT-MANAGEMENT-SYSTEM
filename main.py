@@ -261,15 +261,29 @@ def add_student():
 # add student upper 1
 
 def view_all_students():
-    print("---DATA OF ALL STUDENTS---")
-    i=0
-    for x ,y in readed_data.items():
-        i+=1
-        print(f"STUDENT NO. {i}")
-        print(f"ID CARD NO. {x}")
-        print("           '-------------'")
-        print(f"DETAILS:\n NAME     : {y["name"]} \n AGE      : {y["age"]} \n CITY     : {y["city"]}\n GENDER   : {y["gender"]} \n ROLL NO. : {y["roll no"]}\n MAJOR    : {y["major"]}\n GPA      : {y["gpa"]}")
-        print("- - - - - - - - - - - -")
+    width = 40
+    print("=" * width)
+    print("DATA OF ALL STUDENTS".center(width))
+    print("=" * width)
+
+    if not readed_data:
+        print("No student records found.".center(width))
+        return
+
+    for i, (id_card, s) in enumerate(readed_data.items(), start=1):
+        print(f"\nSTUDENT NO. {i}")
+        print("-" * width)
+        print(f"{'ID Card No.':<12}: {id_card}")
+        print(f"{'Name':<12}: {s['name']}")
+        print(f"{'Age':<12}: {s['age']}")
+        print(f"{'City':<12}: {s['city']}")
+        print(f"{'Gender':<12}: {s['gender']}")
+        print(f"{'Roll No.':<12}: {s['roll no']}")
+        print(f"{'Major':<12}: {s['major']}")
+        print(f"{'GPA':<12}: {s['gpa']}")
+        print("-" * width)
+
+    print(f"\nTotal students: {len(readed_data)}")
 # view student upper 2
 
 def search_student_record():
